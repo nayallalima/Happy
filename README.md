@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-tecnologias-utilizadas">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias-utilizadas">Tecnologias utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#%EF%B8%8F-contribuidores">Contribuidores</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
@@ -32,4 +32,15 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 
 ## 🔒 Licença
 
-<a>	<img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen"> </a>
+<a>	
+<img alt="License" src="https://img.shields.io/badge/license-MIT-blue"> 
+</a>
+
+---
+
+Feito com 💜️ por Nayalla Lima
+<br />
+Entre em contato 😀 
+
+[![Linkedin Badge](https://img.shields.io/badge/-NayallaLima-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/nayalla-lima//)](https://www.linkedin.com/in/nayalla-lima/)
+[![Gmail Badge](https://img.shields.io/badge/-nayallaml@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:nayallaml@gmail.com)](mailto:nayallaml@gmail.com)
