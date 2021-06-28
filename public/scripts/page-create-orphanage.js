@@ -2,7 +2,11 @@
 const map = L.map('mapid').setView([-8.0507454, -34.9188748], 15)
 
 // create and add tileLayer
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map)
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+{
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+})
+.addTo(map)
 
 // create icon
 const icon = L.icon({
@@ -35,8 +39,10 @@ map.on('click', (event) => {
 function addPhotoField() {
     //pegar o container de fotos #images
     const container = document.querySelector('#images')
+
     //pegar o container para duplicar .new-image
     const fieldsContainer = document.querySelectorAll('.new-upload')
+
     //realizar o clone da ultima imagem add
     const newFieldContainer = fieldsContainer[fieldsContainer.length - 1].cloneNode(true)
 
@@ -46,6 +52,7 @@ function addPhotoField() {
     if (input.value == "") {
         return
     }
+
     //limpar o campo antes de add ao container de imagens
     input.value = ""
 
@@ -66,6 +73,7 @@ function deleteField(event) {
     //deletar o campo
     span.parentNode.remove()
 }
+
 //seleção do sim e nao
 function toggleSelect(event) {
     //retirar a class .active dos botões
@@ -83,5 +91,14 @@ function toggleSelect(event) {
 
     input.value = button.dataset.value
 
+}
+function validate(event) {
 
+    // validar se lat e lng estao preenchidos
+    const needsLatAndLng = false;
+    if(needsLatAndLng) {
+        event.preventDefault()
+        alert('Selecione um ponto no mapa')
+    }
+    
 }
