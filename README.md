@@ -2,6 +2,7 @@
 
 <p align="center">
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#%EF%B8%8F-executando-a-aplicação">Executando a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias-utilizadas">Tecnologias utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#%EF%B8%8F-contribuidores">Contribuidores</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -14,9 +15,23 @@
 
 O Happy é uma aplicação que conecta pessoas à casas de acolhimento institucional para fazer o dia de muitas crianças mais feliz 💜
 
-## 🚀 Tecnologias utilizadas
+## ▶️ Executando a aplicação
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+- Clone o repositório para a sua máquina
+
+  git clone git@github.com:nayallalima/Happy.git
+
+- Instale as dependências com `npm`
+
+  npm install
+
+- Inicie o servidor com o comando 
+
+  npm start
+
+O app estará disponível no seu browser pelo endereço [`localhost:5500`](http://localhost:5500) do seu navegador.
+
+## 🚀 Tecnologias utilizadas
 
 - [Node.js](https://nodejs.org/en/)
 - [Express](https://expressjs.com/pt-br/)
@@ -33,7 +48,7 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 ## 🔒 Licença
 
 <a>	
-<img alt="License" src="https://img.shields.io/badge/license-MIT-blue"> 
+<img alt="License" src="https://img.shields.io/badge/license-MIT-9cf"> 
 </a>
 
 ---
